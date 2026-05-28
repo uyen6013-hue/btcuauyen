@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <title>Thông tin cá nhân</title>
+    <style>
+      .cot-trai{
+         background-color: rgb(94, 134, 106);
+            color: black;
+            border: 2px solid black;
+            padding: 2px;
+            display: inline-block; 
+            height: 500px;
+        }
+        .cot-giua{
+            background-color: white;
+            width: 568px;
+            padding: 15px;
+            border: 2px solid black;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: -5px;
+            height: 474px;
+        } 
+        th,td{
+            border-style: none;
+        }
+        .cot-phai{
+            background-color: rgb(187, 113, 165);
+            color: black;
+            border: 2px solid black;
+            padding: 2px;
+            display: inline-block; 
+            height: 500px;
+            margin-left: -5px;
+            vertical-align: top;
+            width: 199.5px;
+        }
+        .chan-trang{
+            background-color: #ffffcc;
+            width: 960px;
+            border: 2px solid black;
+            padding: 15px 0;
+            text-align: center;
+            clear: both;
+        }           
+    </style>
+  </head>
+  <body>
+    <div>
+        <!-- Ảnh banner -->
+        <div>
+            <img src="banner.jpg" height="248px" width="960px">
+        </div>
+        <!-- Phần nội dung -->
+        <div>
+            <div> 
+                <!-- Cột trái -->
+                <div class="cot-trai">  
+                    <h2>TRANG CHỦ</h2>  
+                    <ul>
+                        <li>Chơi Game</li>
+                        <li>Xem Phim</li>
+                        <li>Tìm Kiếm</li>
+                    </ul>
+                    <h2>TÌNH YÊU</h2>
+                    <ul style="list-style-type: circle;">
+                        <li>Truyện tình</li>
+                        <li>Âm nhạc</li>
+                        <li>Đọc truyện</li>
+                    </ul>
+                </div>
+                <!-- Cột giữa -->
+                <div class="cot-giua">
+                    <h2 style="text-align: center;">THÔNG TIN CÁ NHÂN</h2>
+                    <img src="avatar.jpg" alt="ảnh thẻ" height="250px" width="200px"
+                    style="float: left; margin-right: 20px;">
+                    <p>Họ và tên: <b>Bùi Thị Tố Uyên</b></p>
+                    <p>Giới tính: <b>Nữ</b></p>
+                    <p>Ngày sinh: <b>19/09/2007</b></p>
+                    <p>Quê quán: <b>Hưng Yên</b></p>
+                    <p>E-mail: <b>uyen6013@gmail.com</b></p>
+                    <p>Điện thoại: <b>0949019326</b></p>
+                    <p>Website: 
+                        <b>
+                            <a href="https://qldaotao.utehy.edu.vn/DangNhap/Login">
+                                Link cá nhân
+                            </a>
+                        </b>
+                    </p>
+                    <table width="100%" style="margin-top: 20px;">
+                        <tr>
+                            <td valign="top">
+                                <b>Sở thích</b>
+                                <ul>
+                                    <li>Đi chơi</li>
+                                    <li>Nghe nhạc</li>
+                                    <li>Chơi game</li>
+                                </ul>
+                            </td>
+                            <td valign="top">
+                                <b>Sở trường</b>
+                                <ul style="list-style-type: circle;">
+                                    <li>Nghiên cứu</li>
+                                    <li>Học hỏi</li>
+                                </ul>
+                            </td>
+                            <td valign="top">
+                                <b>Sở đoản</b>
+                                <ul style="list-style-type: square;">
+                                    <li>Uống rượu bia</li>
+                                    <li>Nhảy</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Cột phải -->
+                <div class="cot-phai">
+                    <h2>HOẠT ĐỘNG</h2>
+                    <ul>
+                        <li>Nghiên cứu</li>
+                        <li>Tình nguyện</li>
+                        <li>Đi khám phá</li>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+        <!-- Chân trang -->
+        <div class="chan-trang">
+            <p>Bùi Thị Tố Uyên</p>
+        </div>
+    </div> 
+  </body>
+</html>
